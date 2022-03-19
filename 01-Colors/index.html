@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dibba</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--Barra di navigazione -->
+
+    <!-- The <nav> HTML element represents a section of a page whose purpose 
+        is to provide navigation links, either within the current document
+         or to other documents. Common examples of navigation sections are menus,
+          tables of contents, and indexes.-->
+          <!-- UN GRAZIE SPECIALE A https://uigradients.com/#CosmicFusion 
+            CHE FA PRENDERE GRADIENT GIÀ PRONTI-->
+
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="#home" id="navbar__logo">Dibba</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navabr__item">
+                    <a href="#home" class="navbar__links" id="home-page">Home</a>
+                </li>
+                <li class="navabr__item">
+                    <a href="#about" class="navbar__links" id="about-page">About</a>
+                </li>
+                <li class="navabr__item">
+                    <a href="#services" class="navbar__links" id="services-page">Services</a>
+                </li>
+                <li class="navabr__btn">
+                    <a href="#sign-up" class="button" id="signup">Sign up</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero section -->
+    <div class="hero" id="home"> 
+        <div class="hero__container"> 
+            <h1 class="hero__heading">Choose your <span>dibba</span></h1>
+            <p class="hero__description">Unlimited possibilities</p>
+            <button class="main__btn"><a href="#">Explore</a></button>
+        </div>
+    </div>
+    <!-- About section -->
+    <div class="main" id="about">
+        <div class="main__container">
+            <div class="main__image--container">
+                <div class="main__img-card">
+                    ICON
+                </div>
+            </div>
+            <div class="main__content">
+                <h1>What do we do?</h1>
+                <h2>We help Dibba reach out people</h2>
+                <p>Schedule a call with Dibba to learn about his services</p>
+                <button class="main__btn"><a href="#">Schedule call</a></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
