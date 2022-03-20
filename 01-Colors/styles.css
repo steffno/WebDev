@@ -261,7 +261,7 @@
 
   .main__container {
     display: grid;
-    grid-template-columns: 1rf 1rf; 
+    grid-template-columns: 1fr 1fr; 
     align-items: center;
     justify-content: center;
     margin: 0 auto;
@@ -367,4 +367,34 @@
   justify-content: conter;
   color: #fff;
   background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+}
+
+#card-2{
+  background: #ff512f;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #dd2476, #ff512f);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #dd2476, #ff512f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* Mobile responsive */
+@media string and (max-width: 1100px){
+  .main__container{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    height: 90%;
+  
+  }
+
+  .main__img--container{
+    display: flex;
+    justify-content:center;
+  }
+
+  .main__img__card{
+    height: 425px;
+    width: 425px;
+  }
 }
